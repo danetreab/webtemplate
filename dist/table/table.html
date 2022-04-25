@@ -1,0 +1,195 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <title>Document</title>
+    <style>
+      .table1 table {
+        border-collapse: collapse;
+        border-spacing: 0;
+        width: 100%;
+        border: 1px solid #ddd;
+      }
+      .table1 th,.table1 td {
+        text-align: left;
+        padding: 16px;
+      }
+      .table1 tr:nth-child(even) {
+        background-color: #dddd7f;
+      }
+
+      .table2 table,.table2 th,.table2 td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+      .table2 th,.table2 td {
+        text-align: left;
+        padding: 16px;
+      }
+      .table2 tr:nth-child(even) {
+        background-color: #7ca8bd;
+      }
+      .table2 th
+      {
+          background-color: bisque;
+      }
+      .table2 td{
+          background-color: rgb(179, 201, 201);
+      }
+      .table3 table {
+        border-collapse: collapse;
+        border-spacing: 0;
+        width: 100%;
+        border: 1px solid #ddd;
+        text-emphasis-color: white;
+      }
+      
+      .table3 th, .table3 td {
+        text-align: left;
+        padding: 16px;
+        background: rgb(218, 203, 203);
+      }
+  </style>
+</head>
+<body>
+  <div class=" fixed m-5">
+    <a href="/dist/index.html"><i class="far fa-caret-square-left text-[50px] text-blue-500 hover:text-white duration-200"></i></a>
+  </div>
+    <div class="table1" style="padding-top:90px;">
+        <table>
+            <tr>
+                <th>User</th>
+                <th>First Name</th>
+                <th>Amount</th>
+                <th>Deadline</th>
+              </tr>
+              <tr>
+                <td><img src="./face1.jpg"></td>
+                <td>Herman Back</td>
+                <td>$77.99</td>
+                <td>May 15,2015</td>
+              </tr>
+              <tr>
+                <td><img src="./face2.jpg"></td>
+                <td>Messy Adam</td>
+                <td>$245.30</td>
+                <td>July 1,2015</td>
+              </tr>
+              <tr>
+                <td><img src="./face3.jpg"></td>
+                <td>John Richards</td>
+                <td>$138.30</td>
+                <td>Apr 12,2015</td>
+              </tr>
+              <tr>
+                <td><img src="./face4.jpg"></td>
+                <td>Peter Meggik</td>
+                <td>$77.99</td>
+                <td>May 15,2015</td>
+              </tr>
+              <tr>
+                <td><img src="./face5.jpg"></td>
+                <td>Ed Ward</td>
+                <td>$160.25</td>
+                <td>May 03,2015</td>
+              </tr>
+    
+        </table>
+    </div>
+    <div class="table2" style="display: flex; justify-content:center; margin:20px">
+        <table>
+            <tr>
+                <th>#</th>
+                <th>First Name</th>
+                <th>Product</th>
+                <th>Amount</th>
+                <th>Deadline</th>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>Herman Beck</td>
+                <td>Photoshop</td>
+                <td>$77.99</td>
+                <td>May 15,2015</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Messy Adam</td>
+                <td>Flash</td>
+                <td>$245.30</td>
+                <td>July 1,2015</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>John Richards</td>
+                <td>Premeire</td>
+                <td>$138.30</td>
+                <td>Apr 12,2015</td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>Peter Meggik</td>
+                <td>After effects</td>
+                <td>$77.99</td>
+                <td>May 15,2015</td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td>Ed Ward</td>
+                <td>Illustrator</td>
+                <td>$160.25</td>
+                <td>May 03,2015</td>
+              </tr>
+        </table>
+    </div>
+    <div class="table3">
+        <table>
+            <tr>
+                <th>#</th>
+                <th>First Name</th>
+                <th>Product</th>
+                <th>Amount</th>
+                <th>Deadline</th>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>Herman Beck</td>
+                <td>Photoshop</td>
+                <td>$77.99</td>
+                <td>May 15,2015</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Messy Adam</td>
+                <td>Flash</td>
+                <td>$245.30</td>
+                <td>July 1,2015</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>John Richards</td>
+                <td>Premeire</td>
+                <td>$138.30</td>
+                <td>Apr 12,2015</td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>Peter Meggik</td>
+                <td>After effects</td>
+                <td>$77.99</td>
+                <td>May 15,2015</td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td>Ed Ward</td>
+                <td>Illustrator</td>
+                <td>$160.25</td>
+                <td>May 03,2015</td>
+              </tr>
+        </table>
+    </div>
+</body>
+</html>

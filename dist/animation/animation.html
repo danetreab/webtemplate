@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Animation.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class=" fixed m-5">
+        <a href="/dist/index.html"><i class="far fa-caret-square-left text-[50px] text-blue-500 hover:text-white duration-200"></i></a>
+    </div>
+    <div class="px-20 pt-20">
+        <div>
+            <h1>Button</h1>
+            <button class="btn success mag-left-5">Success</button>
+            <button class="btn info mag-left-5">Info</button>
+            <button class="btn warning mag-left-5">Warning</button>
+            <button class="btn danger mag-left-5">Danger</button>
+            <button class="btn default mag-left-5">Default</button>
+    
+            <button class="btn button1 mag-left-5">Button1</button>
+            <button class="btn button2 mag-left-5">Button2</button>
+            <button class="btn button3 mag-left-5">Button3</button>
+            <!-- <div class="container fa-align-center" onclick="myFunction(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+            <script>
+                function myFunction(x) {
+                x.classList.toggle("change");
+            }
+            </script>  -->
+        </div><br><br>
+        <div>
+            <div class="dropup mag-left-5">
+                <button class="dropbtn">Dropup</button>
+                <div class="dropup-content">
+                  <a href="#">Link 1</a>
+                  <a href="#">Link 2</a>
+                  <a href="#">Link 3</a>
+                </div>
+            </div>
+    
+            <div class="dropdown mag-left-5">
+                <button class="dropbtn">Dropdown</button>
+                <div class="dropdown-content">
+                  <a href="#">Link 1</a>
+                  <a href="#">Link 2</a>
+                  <a href="#">Link 3</a>
+                </div>&nbsp;&nbsp;
+               
+        </div> <br><br><br><hr><br>
+    
+        
+        <div>
+            <h1>Loader</h1>
+            <button class="buttonload mag-left-5">
+                <i class="fa fa-spinner fa-spin"></i>Loading
+              </button>
+              
+              <button class="buttonload mag-left-5">
+                <i class="fa fa-circle-o-notch fa-spin"></i>Loading
+              </button>
+              
+              <button class="buttonload mag-left-5">
+                <i class="fa fa-refresh fa-spin"></i>Loading
+              </button>
+              <div class="loader"></div>
+        </div><br><br><br><hr><br>
+    
+        <div>
+            <h1>Card Flip with Text</h1>
+            <h3>Hover over the image below:</h3>
+    
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="https://bukovskevrchy.pl/img/64c9c78b19101eadf6e459ddbb0fd69a.jpg" alt="Avatar" style="width:300px;height:300px;">
+                    </div>
+                    <div class="flip-card-back">
+                        <h1>John Doe</h1> 
+                        <p>Architect & Engineer</p> 
+                        <p>We love that guy</p>
+                    </div>
+                </div>
+            </div>
+        </div><br><br><br><hr><br>
+    
+        <div>
+            <h1>Text</h1>
+            <div>
+                <h3 class="glow">GLOWING TEXT</h1>
+            </div>
+    
+        </div><br><br><br><hr><br>
+    
+        <div>
+            <h2>Accordion with symbols</h2>
+            <p>In this example we have added a "plus" sign to each button. When the user clicks on the button, the "plus" sign is replaced with a "minus" sign.</p>
+            <button class="accordion">Section 1</button>
+            <div class="panel">
+                <p>The Caterpillar and Alice looked at each other for some time in silence: at last the Caterpillar took the hookah out of its mouth, and addressed her in a languid, sleepy voice.</p>
+            </div>
+    
+            <button class="accordion">Section 2</button>
+            <div class="panel">
+                <p>The Caterpillar and Alice looked at each other for some time in silence: at last the Caterpillar took the hookah out of its mouth, and addressed her in a languid, sleepy voice.</p>
+            </div>
+    
+            <button class="accordion">Section 3</button>
+            <div class="panel">
+                <p>The Caterpillar and Alice looked at each other for some time in silence: at last the Caterpillar took the hookah out of its mouth, and addressed her in a languid, sleepy voice.</p>
+            </div>
+    
+            <script>
+                var acc = document.getElementsByClassName("accordion");
+                var i;
+    
+                for (i = 0; i < acc.length; i++) {
+                    acc[i].addEventListener("click", function() {
+                        this.classList.toggle("active");
+                        var panel = this.nextElementSibling;
+                        if (panel.style.maxHeight) {
+                             panel.style.maxHeight = null;
+                        } else {
+                  panel.style.maxHeight = panel.scrollHeight + "px";
+                        } 
+                    });
+                }
+            </script>
+        </div><br><br><br><hr> <br>
+    
+        
+        <div>
+            <div class="navbar">
+                <a href="#home">Home</a>
+                <div class="subnav">
+                  <button class="subnavbtn">About <i class="fa fa-caret-down"></i></button>
+                  <div class="subnav-content ">
+                    <a href="#company">Company</a>
+                    <a href="#team">Team</a>
+                    <a href="#careers">Careers</a>
+                  </div>
+                </div> 
+                <div class="subnav">
+                  <button class="subnavbtn">Services <i class="fa fa-caret-down"></i></button>
+                  <div class="subnav-content">
+                    <a href="#bring">Bring</a>
+                    <a href="#deliver">Deliver</a>
+                    <a href="#package">Package</a>
+                    <a href="#express">Express</a>
+                  </div>
+                </div> 
+                <div class="subnav">
+                  <button class="subnavbtn">Partners <i class="fa fa-caret-down"></i></button>
+                  <div class="subnav-content">
+                    <a href="#link1">Link 1</a>
+                    <a href="#link2">Link 2</a>
+                    <a href="#link3">Link 3</a>
+                    <a href="#link4">Link 4</a>
+                  </div>
+                </div>
+                <a href="#contact">Contact</a>
+              </div>
+              
+              <div style="padding:0 16px">
+                <h3>Subnav/dropdown menu inside a Navigation Bar</h3>
+                <p>Hover over the "about", "services" or "partners" link to see the sub navigation menu.</p>
+              </div>
+        </div> <br><br><br><hr><br>
+    
+        <div>
+            <h1>Progress Bar</h1>
+    
+            <div id="myProgress">
+                <div id="myBar">10%</div>
+            </div>
+    
+            <br>
+            <button onclick="move()">Run</button> 
+    
+            <script>
+                var i = 0;
+                function move() {
+                    if (i == 0) {
+                        i = 1;
+                        var elem = document.getElementById("myBar");
+                        var width = 10;
+                        var id = setInterval(frame, 10);
+                        function frame() {
+                            if (width >= 100) {
+                                clearInterval(id);
+                                i = 0;
+                            } else {
+                                width++;
+                                elem.style.width = width + "%";
+                                elem.innerHTML = width  + "%";
+                            }
+                        }
+                    }
+                }
+            </script>
+        </div><br><br><br><hr><br>    
+    </div>
+</body>
+</html>
